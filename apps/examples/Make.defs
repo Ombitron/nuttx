@@ -230,6 +230,10 @@ ifeq ($(CONFIG_EXAMPLES_POSIXSPAWN),y)
 CONFIGURED_APPS += examples/posix_spawn
 endif
 
+ifeq ($(CONFIG_EXAMPLES_PPPCHAT),y)
+CONFIGURED_APPS += examples/pppchat
+endif
+
 ifeq ($(CONFIG_EXAMPLES_QENCODER),y)
 CONFIGURED_APPS += examples/qencoder
 endif
